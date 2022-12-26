@@ -1,0 +1,203 @@
+@media screen and (max-width: 500px) {
+.PP2{order:2;}}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;}
+
+p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #3D3D3D;}
+
+*,::after,::before{box-sizing:border-box}
+
+@media (prefers-reduced-motion:no-preference){
+:root{scroll-behavior:smooth}}
+
+body{
+    margin:0;
+    font-family:var(--bs-font-sans-serif);
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.5;
+    color:#212529;
+    background-color:#fff;
+    -webkit-text-size-adjust:100%;
+    -webkit-tap-highlight-color:transparent}
+
+p{
+    margin-top:0;
+    margin-bottom:1rem}
+
+b{font-weight:bolder}
+
+a{
+    color:#0d6efd;
+    text-decoration:underline}
+
+a:hover{color:#0a58ca}
+
+img{vertical-align:middle}
+
+button:focus:not(:focus-visible){
+    outline:0}
+
+[type=button]:not(:disabled),[type=reset]:not(:disabled),[type=submit]:not(:disabled),button:not(:disabled){
+    cursor:pointer}
+
+::-moz-focus-inner{
+    padding:0;
+    border-style:none}
+
+::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-fields-wrapper,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-text,::-webkit-datetime-edit-year-field{
+    padding:0}
+
+::-webkit-inner-spin-button{
+    height:auto}
+
+::-webkit-search-decoration{
+    -webkit-appearance:none}
+
+::-webkit-color-swatch-wrapper{
+    padding:0}
+
+::file-selector-button{
+    font:inherit}
+
+::-webkit-file-upload-button{
+    font:inherit;
+    -webkit-appearance:button}
+
+br{
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */}
+
+.BB1{
+    width:100%;
+    margin-right:auto;
+    margin-left:auto}
+
+@media (min-width:576px){
+.BB1{max-width:540px}}
+
+@media (min-width:768px){
+.BB1{max-width:720px}}
+
+@media (min-width:992px){
+.BB1{max-width:960px}}
+
+@media (min-width:1200px){
+.BB1{max-width:1140px}}
+
+@media (min-width:1400px){
+.BB1{max-width:1320px}}
+
+.BB2{
+    --bs-gutter-x:1.5rem;
+    --bs-gutter-y:0;
+    display:flex;
+    flex-wrap:wrap;}
+
+.BB2>*{
+    flex-shrink:0;
+    width:100%;
+    max-width:100%;
+    padding-right:calc(var(--bs-gutter-x)/ 2);
+    padding-left:calc(var(--bs-gutter-x)/ 2);}
+
+@media (min-width:992px){
+
+.TXT2{
+    flex:0 0 auto;
+    width:41.6666666667%}
+
+.PP1{
+    flex:0 0 auto;
+    width:58.3333333333%}}
+
+@media (min-width:1400px){
+.KK2{
+    flex:0 0 auto;
+    width:16%}}
+
+.TXT1{
+    display:block;
+    padding:.5rem 1rem;
+    text-decoration:none;
+    transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out}
+
+.TXT1{
+    padding-right:.5rem;
+    padding-left:.5rem}
+
+.TXT1{
+    color:rgba(0,0,0,.55)}
+
+.TXT1:focus, .TXT1:hover{
+    color:rgba(0,0,0,.7)}
+
+.AA1{
+    position:relative;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-between;
+    padding-top:.5rem;
+    padding-bottom:.5rem}
+
+.AA6{display:flex;}
+
+@media (min-width:280px){
+.AA6{font-size:13px;}}
+
+@media (min-width:330px){
+.AA6{font-size:13px;}}
+
+@media (min-width:480px){
+.AA6{font-size:15px;}}
+
+@media (min-width:720px){
+.AA6{font-size:17px;}}
+
+.AA5{
+    flex-grow:1;
+    align-items:center;
+    display:flex ;
+    flex-basis:auto}
+
+.AA2{flex-direction:row;
+    padding-right:.5rem;
+    padding-left:.5rem;
+    display:flex ;
+    flex-basis:auto}
+
+.AA3{
+    position:fixed;
+    top:0;
+    right:0;
+    left:-5px;
+    z-index:1030}
+
+.TXT3{display:flex}
+.KK1{justify-content:center}
+.TXT4{align-items:center}
+.BB3{margin:1rem}
+.AA4{margin-left:1rem}
+.bgr{background-color:#ffffff}
+
+body{
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;}
+
+::-webkit-scrollbar{width: 10px;}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 15px;
+    background: #999;}
